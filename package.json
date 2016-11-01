@@ -1,0 +1,22 @@
+{
+  "name": "local-link",
+  "version": "1.0.0",
+  "description": "Determine which link clicks should be captured for client-side navigation",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jackmoore/local-link.git"
+  },
+  "homepage": "https://github.com/jackmoore/local-link",
+  "keywords": [
+    "link",
+    "anchor",
+    "click",
+    "spa",
+    "single-page app",
+    "routing",
+    "router"
+  ],
+  "author": "jacklmoore",
+  "license": "MIT"
+}
