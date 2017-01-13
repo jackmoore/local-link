@@ -1,5 +1,5 @@
 module.exports = function (ev) {    
-    if (ev.altKey || ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.defaultPrevented) {
+    if (ev.which > 1 || ev.altKey || ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.defaultPrevented) {
         return;
     }
     

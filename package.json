@@ -1,6 +1,6 @@
 {
   "name": "local-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Determine which link clicks should be captured for client-side navigation",
   "main": "index.js",
   "repository": {
