@@ -4,7 +4,7 @@ module.exports = function (ev) {
     }
     
     var anchor = null;
-    for (var n = ev.target; n.parentNode; n = n.parentNode) {
+    for (var n = ev.target; n; n = n.parentNode) {
         if (n.nodeName === 'A') {
             anchor = n;
             break;
